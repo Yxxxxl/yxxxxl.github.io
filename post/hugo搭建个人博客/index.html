@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Yxxxxl | Blog of Leo Young </title>
+    <title> Yxxxxl | Hugo搭建个人博客 </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.80.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://Yxxxxl.github.io/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://Yxxxxl.github.io/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://Yxxxxl.github.io/">
+    <link rel="canonical" href="https://Yxxxxl.github.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://Yxxxxl.github.io/index.xml" title="Blog of Leo Young" />
     
     
     
@@ -53,8 +52,11 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Yxxxxl.github.io/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Blog of Leo Young"/>
-<meta name="twitter:description" content="挖坑折腾"/>
+<meta name="twitter:title" content="Hugo搭建个人博客"/>
+<meta name="twitter:description" content="#Hugo搭建个人博客
+hugo是基于Go开发的静态网站生成器，速度快，易用，可配置。
+1.安装下载hugo 在windows系统下下在hugo需要在git上下载 开源地址hugo。 下载解压后，配置系统变量和环境变量。
+添加环境变量 添加系统变量 2.创建Blog文件 在你想要文件夹根目录下以管理员模式打开CMD 输入hugo new sit xxxx xxxx为新建文件夹名"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -109,7 +111,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/"
                         
                    title="">Home</a></li>
@@ -145,64 +147,65 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-
     <div class="post  animated fadeInDown ">
-        
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Hugo搭建个人博客</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Thu, Jan 21, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>#Hugo搭建个人博客</p>
+<p><strong>hugo是基于Go开发的静态网站生成器，速度快，易用，可配置。</strong></p>
+<h2 id="1安装下载hugo">1.安装下载hugo</h2>
+<p>在windows系统下下在hugo需要在git上下载 开源地址<a href="https://github.com/gohugoio/hugo/releases">hugo</a>。
+下载解压后，配置系统变量和环境变量。</p>
+<p><strong>添加环境变量</strong>
+<img src="https://github.com/Yxxxxl/MarkDownPic/blob/master/%E6%90%AD%E5%BB%BAhugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png?raw=true" alt="添加环境变量"></p>
+<p><strong>添加系统变量</strong>
+<img src="https://github.com/Yxxxxl/MarkDownPic/blob/master/%E6%90%AD%E5%BB%BAhugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E7%B3%BB%E7%BB%9F%E5%8F%98%E9%87%8F.png?raw=true" alt="添加系统变量"></p>
+<h2 id="2创建blog文件">2.创建Blog文件</h2>
+<p>在你想要文件夹根目录下以管理员模式打开CMD
+输入<code>hugo new sit xxxx</code>
+xxxx为新建文件夹名</p>
+<h2 id="3下载主题">3.下载主题</h2>
+<p>官方下载网址<a href="https://themes.gohugo.io/">hugothemes</a>。
+选择喜欢的主题用Git Clone下来放在themes文件夹内。</p>
+<p><strong>注：对应的主题里面有对应的Config，自己看配置。</strong></p>
+<h2 id="4推到github发布在远端">4.推到GitHub，发布在远端</h2>
+<p>首先创建一个库，要求与你的昵称一样，例如：
+<img src="https://github.com/Yxxxxl/MarkDownPic/blob/master/%E6%90%AD%E5%BB%BAhugo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/GitHub%E4%BB%93%E5%BA%93%E5%91%BD%E5%90%8D.png?raw=true" alt="github仓库命名"></p>
+<p>在根目录执行：<code>hugo</code>
+生成了public文件夹。
+在根目录下执行：</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">cd public
+git init
+git remote add origin git@github.com:xxxx/xxxx.github.io.git
+git add -A
+git commit -m &#34;first commit&#34;
+git push -u origin master
+</code></pre></div><h2 id="5访问网址">5.访问网址</h2>
+<p>访问 xxxx.github.io</p>
+<p><strong>## 大功告成！！！！！！！！</strong></p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
         
     </div>
 
-    
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">Hugo搭建个人博客</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>#Hugo搭建个人博客
-hugo是基于Go开发的静态网站生成器，速度快，易用，可配置。
-1.安装下载hugo 在windows系统下下在hugo需要在git上下载 开源地址hugo。 下载解压后，配置系统变量和环境变量。
-添加环境变量 添加系统变量 2.创建Blog文件 在你想要文件夹根目录下以管理员模式打开CMD 输入hugo new sit xxxx xxxx为新建文件夹名</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date"> Thu, Jan 21, 2021 
-                                             </span>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/post/first/">First</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>开始折腾！！！</p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fas fa-calendar-day"></em><span
-                                class="date"> Thu, Jan 21, 2021 
-                                             </span>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
-        
-
-
-    </div>
 
         </div>
     </div>
