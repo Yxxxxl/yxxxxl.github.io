@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog of Leo Young</title>
-    <link>https://Yxxxxl.github.io/post/</link>
-    <description>Recent content in Posts on Blog of Leo Young</description>
+    <title>hugo on Blog of Leo Young</title>
+    <link>https://Yxxxxl.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Blog of Leo Young</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Jan 2021 12:31:25 +0800</lastBuildDate><atom:link href="https://Yxxxxl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jan 2021 12:31:25 +0800</lastBuildDate><atom:link href="https://Yxxxxl.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建个人博客</title>
       <link>https://Yxxxxl.github.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
@@ -16,15 +16,6 @@
       <description>hugo是基于Go开发的静态网站生成器，速度快，易用，可配置。
 1.安装下载hugo 在windows系统下下在hugo需要在git上下载 开源地址hugo。 下载解压后，配置系统变量和环境变量。
 添加环境变量 添加系统变量 2.创建Blog文件 在你想要文件夹根目录下以管理员模式打开CMD 输入hugo new sit xxxx xxxx为新建文件夹名</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://Yxxxxl.github.io/post/first/</link>
-      <pubDate>Thu, 21 Jan 2021 11:45:29 +0800</pubDate>
-      
-      <guid>https://Yxxxxl.github.io/post/first/</guid>
-      <description>开始折腾！！！</description>
     </item>
     
   </channel>
