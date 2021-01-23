@@ -6,7 +6,18 @@
     <description>Recent content on Blog of Leo Young</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Jan 2021 12:31:25 +0800</lastBuildDate><atom:link href="https://Yxxxxl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 16:37:53 +0800</lastBuildDate><atom:link href="https://Yxxxxl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>漫画算法第一张小结</title>
+      <link>https://Yxxxxl.github.io/post/%E6%BC%AB%E7%94%BB%E7%AE%97%E6%B3%95%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%B0%8F%E7%BB%93/</link>
+      <pubDate>Sat, 23 Jan 2021 16:37:53 +0800</pubDate>
+      
+      <guid>https://Yxxxxl.github.io/post/%E6%BC%AB%E7%94%BB%E7%AE%97%E6%B3%95%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%B0%8F%E7%BB%93/</guid>
+      <description>算法概述 时间复杂度 概念： 时间复杂度是对一个算法运算时间长短的量度。
+范例： 时间复杂度首先要知道基本执行次数：
+ 执行次数是线性 T(n) = 3n  private void count(n) { for(i = 0, i&amp;lt; n, i++) { Console.</description>
+    </item>
+    
     <item>
       <title>Hugo搭建个人博客</title>
       <link>https://Yxxxxl.github.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>

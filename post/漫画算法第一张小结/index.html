@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Yxxxxl | 漫画算法第一张小结 </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.80.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="挖坑折腾">
+    
+    <link rel="stylesheet"
+          href="https://Yxxxxl.github.io/css/style.min.1b320c0791722ac0a6fdde1a95f96f83202fa700fec413f074399ec757ac5bed.css"
+          integrity="sha256-GzIMB5FyKsCm/d4alflvgyAvpwD&#43;xBPwdDmex1esW&#43;0="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="https://Yxxxxl.github.io/css/markupHighlight.min.9755453ffb7bc4cd220f86ebb5922107b49f193cc62fc17e9785d27b33a8bf5b.css"
+        integrity="sha256-l1VFP/t7xM0iD4brtZIhB7SfGTzGL8F&#43;l4XSezOov1s="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://Yxxxxl.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://Yxxxxl.github.io/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://Yxxxxl.github.io/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://Yxxxxl.github.io/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="https://Yxxxxl.github.io/post/%E6%BC%AB%E7%94%BB%E7%AE%97%E6%B3%95%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%B0%8F%E7%BB%93/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="https://Yxxxxl.github.io/js/anatole-header.min.d8599ee07b7d3f11bafbac30657ccc591e8d7fd36a9f580cd4c09e24e0e4a971.js"
+            integrity="sha256-2Fme4Ht9PxG6&#43;6wwZXzMWR6Nf9Nqn1gM1MCeJODkqXE="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="https://Yxxxxl.github.io/js/anatole-theme-switcher.min.e289e9ebb2a4e7a7f895859c8a2b0da2de1ec73f22cea58d8475aa0597023837.js"
+                integrity="sha256-4onp67Kk56f4lYWciisNot4exz8izqWNhHWqBZcCODc="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Yxxxxl.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="漫画算法第一张小结"/>
+<meta name="twitter:description" content="算法概述 时间复杂度 概念： 时间复杂度是对一个算法运算时间长短的量度。
+范例： 时间复杂度首先要知道基本执行次数：
+ 执行次数是线性 T(n) = 3n  private void count(n) { for(i = 0, i&lt; n, i&#43;&#43;) { Console."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://Yxxxxl.github.io/images/1.jpg" alt="profile picture">
+            <h3 title=""><a href="/">Halo World</a></h3>
+            <div class="description">
+                <p>挖坑折腾</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://de.linkedin.com/" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/lxndrblz/anatole/" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.instagram.com/" rel="me" aria-label="instagram">
+                    <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:mail@alexbilz.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Yxxxxl  2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/about/"
+                        
+                   title="">About</a></li>
+        
+            
+            <li><a 
+                   href="/contact/"
+                        
+                   title="">Contact</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>漫画算法第一张小结</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sat, Jan 23, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
+                
+            </div>
+
+            <h1 id="算法概述">算法概述</h1>
+<h2 id="时间复杂度">时间复杂度</h2>
+<h3 id="概念">概念：</h3>
+<p>时间复杂度是对一个算法运算时间长短的量度。</p>
+<h3 id="范例">范例：</h3>
+<p>时间复杂度首先要知道基本执行次数：</p>
+<ol>
+<li>执行次数是线性
+T(n) = 3n</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">private</span> <span class="k">void</span> <span class="n">count</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span> <span class="n">i</span><span class="p">&lt;</span> <span class="n">n</span><span class="p">,</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;END&#34;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><ol>
+<li>执行次数是对数
+T(n) = 3logn</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">private</span> <span class="k">void</span> <span class="n">count</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">n</span><span class="p">&gt;</span><span class="m">1</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;END&#34;</span><span class="p">);</span>
+        <span class="n">n</span> <span class="p">/=</span> <span class="m">2</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><ol>
+<li>执行次数是常量
+T(n) = 3</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">private</span> <span class="k">void</span> <span class="n">count</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;END&#34;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><ol>
+<li>执行次数是多项式
+T(n)= 0.5n² + 0.5n</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">private</span> <span class="k">void</span> <span class="n">count</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">n</span><span class="p">,</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="k">for</span><span class="p">(</span><span class="n">j</span> <span class="p">=</span> <span class="m">0</span><span class="p">,</span> <span class="n">j</span> <span class="p">&lt;</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">++)</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;END&#34;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><p>时间复杂度就是保留执行次数中的最高阶项，并去掉系数，如果是常数量级，则用1表示。
+T(n) = 3 = O(1)
+T(n) = 3n = O(n)
+T(n) = 3logn = O(logn)
+T(n) = 0.5n² + 0.5n = O(n²)</p>
+<h2 id="空间复杂度">空间复杂度</h2>
+<h3 id="概念-1">概念：</h3>
+<p>就是看你new空间跟n的关系，递归是特殊的，没有new也能算空间复杂度。</p>
+<h3 id="font-colorcd5c5c残留问题font"><!-- raw HTML omitted -->残留问题：<!-- raw HTML omitted --></h3>
+<p><strong>为什么字典的时间复杂度是O(1)？哈希表？</strong></p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://Yxxxxl.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://Yxxxxl.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://Yxxxxl.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
